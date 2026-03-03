@@ -108,7 +108,7 @@ Minute-level prediction is unstable because severe disruptions are often driven 
  
 The model is strong at confirming lower-risk situations (useful for passenger trust and baseline planning). Critical delays remain harder to capture due to unobserved drivers and the nature of rare disruptions. This is a data limitation more than a modeling limitation, and it is a realistic finding for operational systems.
 
-![Feature Importance – Critical Delay Prediction](Images/6.Feature Importance.png)
+![Feature Importance](Images/feature_importance.png)
 
 ---
 
@@ -153,9 +153,13 @@ Track stability beyond averages, using metrics such as delay incidence, cancella
 
 ## Repository Structure
 ├── data
+
 ├── notebooks
+
 ├── images
+
 ├── requirements.txt
+
 └── README.md  
 
 ---
