@@ -21,6 +21,17 @@ This project uses one full year of operational data from Tübingen Hbf to assess
 
 ---
 
+## Dataset
+
+Source: Deutsche Bahn Railway Data  
+https://huggingface.co/datasets/piebro/deutsche-bahn-data
+
+The original dataset contains **millions of train operation records across Germany**.
+
+For this project, a Python streaming approach was used to extract only the records related to **Tübingen Hbf** over a **12-month period (Aug 2024 – Jul 2025)**.
+
+---
+
 ## Problem Statement
 
 How reliable is the railway service at Tübingen Hbf, and which operational factors are most associated with delays and higher delay risk?
@@ -145,6 +156,16 @@ Identify structural vulnerabilities (seasonality, destination-level risk) to inf
 
 **KPI monitoring**  
 Track stability beyond averages, using metrics such as delay incidence, cancellation rate, and critical delay risk rate over time.
+
+---
+
+## Limitations
+
+• The dataset focuses on a single station (Tübingen Hbf), which may limit generalization to the entire German railway network.
+
+• External factors such as weather conditions or infrastructure disruptions are not included in the dataset.
+
+• Rare extreme delays may be influenced by irregular operational events that are difficult to capture with historical data.
 
 ---
 
