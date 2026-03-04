@@ -1,4 +1,3 @@
-
 # Railway Delay Analysis - Tübingen (Germany)
 Data-driven insights into railway punctuality, delay risk, and passenger experience in the German railway network (Deutsche Bahn).
 
@@ -75,6 +74,8 @@ The exploratory analysis revealed consistent patterns with direct operational im
 - **Directional bottlenecks:** several southern and southeastern routes show higher average delays, while major hubs like Stuttgart appear comparatively more stable.
 
 These findings guided formal hypothesis testing and the modeling strategy.
+
+![Feature Importance](Images/2.avg_train_delay_weekday.png)
 
 ---
 
