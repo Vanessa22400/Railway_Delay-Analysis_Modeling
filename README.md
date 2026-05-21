@@ -23,9 +23,6 @@ This project uses one year of operational data from Tübingen Centra Station to 
 
 ## Dataset
 
-Source: Deutsche Bahn Railway Data  
-https://huggingface.co/datasets/piebro/deutsche-bahn-data
-
 The original dataset contains **millions of train operation records across Germany**.
 
 A Python streaming approach was used to extract only **12 months of data** (Aug 2024 - Jul 2025) for **Tübingen Hbf** (24,760 records). 
